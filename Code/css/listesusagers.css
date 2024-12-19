@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightpink;
+}
+
+img {
+    cursor: pointer;
+    height: 80px;
+    margin-top: 10px;
+}
+

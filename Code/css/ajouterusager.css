@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding:0px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.civilite-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.civilite-option {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="radio"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.medecin-referent {
+    margin-bottom: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(145, 46, 145);
+}
+
+.civilite-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.civilite-option {
+    flex: 1;
+}
+
+
+
+
+
+

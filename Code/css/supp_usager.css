@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+button, a {
+    
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.supp{
+    background-color: rgb(196, 194, 194);
+}
+
+.supp:hover {
+    background-color: rgb(232, 106, 106);
+    
+}
+.annuler:hover {
+    background-color: rgb(185, 184, 184);
+}
+
+
+
+

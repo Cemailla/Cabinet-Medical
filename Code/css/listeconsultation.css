@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightpink;
+    position: relative;
+}
+
+th a {
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+th a::after {
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+th a[aria-sort="descending"]::after {
+    content: '▼';
+    
+}
+
+
+.invisible {
+    display: none;
+}
+
+img {
+    cursor: pointer;
+    height: 80px;
+    margin-top: 10px;
+}
+
+form.filter-form {
+    margin: 20px; 
+}
